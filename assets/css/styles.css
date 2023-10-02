@@ -1,0 +1,99 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Open+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Open+Sans:wght@400&display=swap');
+
+
+:root {
+    --font-primary: 'Open Sans', sans-serif;
+    --color-bg-white: #f3f3f3;
+    --color-text-grey: #666666;
+    --color-text-darkgrey: #3f3f3f;
+}
+
+body {
+    font-family: var(--font-primary);
+    color: var(--color-text-grey);
+    background-color: var(--color-bg-white);
+    height: 100%;
+}
+
+.my-custom-button-bg {
+    background-color: #666666;
+    color: #ffffff;
+}
+.my-custom-button-bg:hover{
+    background-color: var(--color-text-darkgrey);
+    color: #ffffff;
+}
+
+.page-active{
+    color: #000000;
+}
+
+.navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+.survey-form{
+    width: 75px;
+    margin-left: 5%;
+}
+
+.img-class{
+    width: 50px;
+    background-color: var(--color-text-grey);
+    margin-left: 2%;
+}
+
+.privacy-policy{
+    color: var(--color-text-grey);
+}
+
+.bold{
+    color: #000000;
+    font-weight: 900;
+}
+
+
+/* to check */
+
+/* section {
+    padding: 40px 0;
+} */
+
+.justify-text {
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+    /* CSS styles for larger screens go here */
+    .my-section {
+        margin: 0 125px;
+    }
+  }
+  
+
+@media screen and (min-width: 769px) {
+    /* CSS styles for large screens go here */
+
+  }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* CSS styles for medium screens go here */
+  }
+
+@media screen and (max-width: 480px) {
+     /* CSS styles for small screens go here */
+    .img-class{
+        width: 25px;
+        background-color: var(--color-text-grey);
+        
+    }
+    .survey-form{
+        width: 40px;
+        margin-left: 5%;
+    }
+  }
