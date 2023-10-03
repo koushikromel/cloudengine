@@ -17,7 +17,7 @@ body {
 }
 
 .my-custom-button-bg {
-    background-color: #666666;
+    background-color: var(--color-text-grey);
     color: #ffffff;
 }
 .my-custom-button-bg:hover{
